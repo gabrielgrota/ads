@@ -1,0 +1,142 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F6F7EB;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    align-items: center;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+}
+
+.sobre a{
+    display: flex;
+}
+
+.logo-site{
+    width: 300px;
+    height: auto;
+}
+
+.icon-header{
+    width: 40px;
+    margin: 0 28px;
+}
+
+.icon-header-menu{
+    font-size: 18px;
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+.icon-header-menu:hover{
+    color: #d00000;
+    text-decoration: underline;
+}
+
+.icon-header-button{
+    font-size: 32px;
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+.icon-header-button:hover{
+    color: #d00000;
+    text-decoration: underline;
+}
+
+.header-titulo {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.icone-contato {
+    margin: 0 20px;
+    padding: 0 10px;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+.icone-contato:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+/* PRINCIPAL */
+
+.container{
+    height: 15em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+@media only screen and (min-width: 600px) {
+    .card {
+        max-width: 180px;
+    }
+}
+
+.imagem-produto{
+    width: 180px; 
+    height: 180px;
+    object-fit: cover; 
+}
+
+.accordion-button {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.div-cart {
+    margin-top: 50px;
+}
+
+
+/* FOOTER */
+
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.redes-sociais{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-login {
+    display: flex;
+    align-items: center;
+}
+.botao-entrar {
+    font-weight: 700;
+}

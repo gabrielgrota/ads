@@ -1,0 +1,54 @@
+input,
+select {
+    /*Barra para preencher dados do usuário*/
+    width: 300px;
+    height: 50px;
+    padding: 8px;
+    font-size: 16px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-login input, select {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    border: solid 1px black;
+}
+
+.input-validade{
+    flex-direction: column;
+    align-items: baseline;
+}
+.input-validade select{
+    width: 148px;
+    margin: 2px;
+}
+
+p{
+    margin: 0;
+}
+
+.input-validade-flex{
+    display: flex;
+}
+
+.botao-voltar-main {
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagamento{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
