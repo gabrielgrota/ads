@@ -1,2 +1,2 @@
 # ads
-repo para subir trabalhos da faculdade
+repo para subir trabalhos e estudos da faculdade
